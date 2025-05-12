@@ -4,8 +4,8 @@ import json
 from extraction import extraction_func, video_extr
 from conf import prompt, generation_config, system_instruction, safety_settings
 
-# with open("input/prompt.txt", "r", encoding="utf-8") as f:
-#     prompt = f.read()
+with open("input/prompt.txt", "r", encoding="utf-8") as f:
+     prompt1 = f.read()
     
 
 def main():
@@ -15,7 +15,7 @@ def main():
     
     video_urls = video_extr()
     
-    output = generate_for_videos(video_urls, system_instruction, prompt, generation_config, safety_settings)
+    output = generate_for_videos(video_urls, system_instruction, prompt1, generation_config, safety_settings)
     cleaned_output = clean_json_output(output)
     df = json_to_dataframe(cleaned_output)
 
