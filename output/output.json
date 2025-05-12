@@ -2,10 +2,24 @@
     "https://media.gedidigital.it/repubblicatv/file/2025/04/04/1094273/1094273-video-rrtv-650-videotrumpdazizzzzzzzzzz.mp4": [
         {
             "presenza_violenza": 0,
-            "categorie": []
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2025/04/04/1094272/1094272-video-rrtv-650-0404202511294752.mp4": [
+        {
+            "presenza_violenza": 1,
+            "category": [
+                "Morte, Ferite o Conflitti Militari"
+            ]
         }
     ],
     "https://media.gedidigital.it/repubblicatv/file/2025/04/04/1094232/1094232-video-rrtv-650-videoministraokokokokokokok.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2025/04/04/1094228/1094228-video-rrtv-650-un_minuto_di_allarme_per_sara_e_.mp4": [
         {
             "presenza_violenza": 0,
             "category": []
@@ -18,5 +32,12 @@
                 "Morte, Ferite o Conflitti Militari"
             ]
         }
-    ]
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2025/04/04/1094173/1094173-video-rrtv-650-videotrumpcard.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2025/04/04/1094168/1094168-video-rrtv-650-0404sulaok.mp4": "Errore: contenuto JSON non trovato"
 }
