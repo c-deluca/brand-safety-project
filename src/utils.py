@@ -12,11 +12,7 @@ import vertexai
 from vertexai.generative_models import GenerativeModel, Part, SafetySetting
 from tqdm import tqdm
 import pandas as pd
-#from conf import prompt, generation_config, system_instruction, safety_settings
 
-
-def ciao ():
-    print ("ciao")
 
 def extract_video_url(html_content):
     """ Estrae l'URL del video .mp4 dalla pagina HTML """
@@ -36,13 +32,12 @@ def generate_for_videos(video_urls, system_instruction, prompt, generation_confi
     for idx, video_url in enumerate(tqdm(video_urls, desc="Processing Videos")):
         print(f"Processing video {idx + 1}: {video_url}")
         try:
-            # Crea il part per il video
+
             video = Part.from_uri(
                 mime_type="video/mp4",
                 uri=video_url
             )
 
-            # Genera contenuto per il video
             responses = model.generate_content(
                 [video, prompt],
                 generation_config=generation_config,
@@ -50,12 +45,10 @@ def generate_for_videos(video_urls, system_instruction, prompt, generation_confi
                 stream=True,
             )
 
-            # Raccogli il testo generato
             generated_text = ""
             for response in responses:
                 generated_text += response.text
 
-            # Salva il risultato nel dizionario
             results[video_url] = generated_text
             print(f"Completed processing for video {idx + 1}. {generated_text[10:-5]}")
 
@@ -69,39 +62,31 @@ def generate_for_videos(video_urls, system_instruction, prompt, generation_confi
 #video_urls = [" https://media.gedidigital.it/repubblicatv/file/2025/04/09/1096403/1096403-video-rrtv-650-usa_come_non_impugnare_un_fucile.mp4",
  #             "https://media.gedidigital.it/repubblicatv/file/2025/04/09/1096339/1096339-video-rrtv-650-talk2.mp4"]
 
-#output = generate_for_videos(video_urls, system_instruction, prompt, generation_config, safety_settings)
-
 
 def clean_json_output(raw_output):
     cleaned_output = {}
     
     for key, value in raw_output.items():
         try:
-            # Cerca il contenuto JSON nel valore usando una regex
             match = re.search(r"\{.*\}|\[.*\]", value, re.DOTALL)
             if match:
-                json_content = match.group(0)  # Contenuto JSON rilevato
+                json_content = match.group(0)  
                 parsed_json = json.loads(json_content)
                 cleaned_output[key] = parsed_json
             else:
-                # Se non trova contenuto JSON, registra un errore
                 cleaned_output[key] = "Errore: contenuto JSON non trovato"
         except json.JSONDecodeError:
-            # Se la conversione fallisce, registra un errore
             cleaned_output[key] = "Errore nella decodifica del JSON"
     
     return cleaned_output
 
-# Pulizia dell'output
-#cleaned_output = clean_json_output(output)
-
 
 def json_to_dataframe(cleaned_json):
-    # Lista per raccogliere i dati
+
     data = []
 
     for link, content in cleaned_json.items():
-        # Verifica se il contenuto è un dizionario o una lista
+
         if isinstance(content, dict):
             presenza_violenza = content.get("violenza_presente", None)
             category = content.get("categorie_violenza", [])
@@ -109,17 +94,15 @@ def json_to_dataframe(cleaned_json):
             presenza_violenza = content[0].get("presenza_violenza", None)
             category = content[0].get("category", [])
         else:
-            # Per errori o contenuti non validi
+
             presenza_violenza = None
             category = []
 
-        # Aggiungi al dataset
         data.append({
             "link_video": link,
             "presenza_violenza": presenza_violenza,
             "category": category
         })
 
-    # Crea il DataFrame
     df = pd.DataFrame(data)
     return df

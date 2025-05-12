@@ -1,5 +1,6 @@
 from utils import generate_for_videos, clean_json_output, json_to_dataframe
 import extraction
+import json
 from extraction import extraction_func, video_extr
 from conf import prompt, generation_config, system_instruction, safety_settings
 
@@ -11,13 +12,15 @@ def main():
     video_urls = video_extr()
     
     output = generate_for_videos(video_urls, system_instruction, prompt, generation_config, safety_settings)
-    print(output)
     cleaned_output = clean_json_output(output)
-    print(cleaned_output)
     df = json_to_dataframe(cleaned_output)
-    print("df:", df)
 
-    df.to_csv('!output.csv', index=False)
+
+    with open("output.json", "w", encoding="utf-8") as f:
+        json.dump(cleaned_output, f, ensure_ascii=False, indent=4)
+
+
+    df.to_csv('output.csv', index=False)
 
     return df
     
