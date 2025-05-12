@@ -5,6 +5,10 @@ import re
 from bs4 import BeautifulSoup
 import requests
 from query import query
+#from query import query
+
+#with open("input/query.txt", "r", encoding="utf-8") as f:
+ #   query = f.read()
 
 print("Starting extraction...")
 

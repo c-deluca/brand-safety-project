@@ -4,6 +4,10 @@ import json
 from extraction import extraction_func, video_extr
 from conf import prompt, generation_config, system_instruction, safety_settings
 
+# with open("input/prompt.txt", "r", encoding="utf-8") as f:
+#     prompt = f.read()
+    
+
 def main():
 
     # video_urls = [#" https://media.gedidigital.it/repubblicatv/file/2025/04/09/1096403/1096403-video-rrtv-650-usa_come_non_impugnare_un_fucile.mp4",

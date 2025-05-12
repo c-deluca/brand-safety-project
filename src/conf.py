@@ -27,16 +27,16 @@ safety_settings = [
 
 prompt = """
 
-Genera un JSON che descriva le scene di violenza rilevate in un video.  Il JSON deve contenere un singolo dizionario con la seguente struttura:
+Genera un JSON che descriva le scene di violenza o disturbanti rilevate in un video.  Il JSON deve contenere un singolo dizionario con la seguente struttura:
 
 ```json
 {
   "url_video": "URL_del_video",
-  "violenza_presente": 1 se presente violenza, 0 altrimenti
+  "violenza_presente": 1 se presente violenza o scene disturbanti, 0 altrimenti
   "categorie_violenza": ["categoria1", "categoria2", ...] // Array di stringhe. Può essere vuoto se violenza_presente è false.
 }
 
-Per identificare la categoria di scena violenta o di cucina usa la seguente classificazione:
+Per identificare la categoria di scena violenta o disturbante usa la seguente classificazione:
 
 
 "Contenuti per Adulti e Espliciti": Vendita, distribuzione e consumo illegale di pornografia infantile, Rappresentazione esplicita o gratuita di atti sessuali e/o esposizione di genitali, reali o animati
@@ -49,7 +49,8 @@ Per identificare la categoria di scena violenta o di cucina usa la seguente clas
 "Droghe Illegali/Tabacco/Sigaretta Elettronica/Vaping/Alcool": Promozione o vendita di droghe illegali – inclusi abusi di farmaci prescritti. La giurisdizione federale si applica, ma è consentito dove la giurisdizione locale lo permette, Promozione e incitamento all’uso di tabacco, sigarette elettroniche (vaping) e alcol tra i minorenni
 "Spam o Contenuti Dannosi": Malware/Phishing
 "Terrorismo": Promozione e incitamento ad attività terroristiche grafiche che comportano diffamazione, danni fisici e/o emotivi agli individui, alle comunità e alla società
-"Temi Sociali Sensibili e Dibattuti": Trattamento insensibile, irresponsabile e dannoso di temi sociali dibattuti e atti correlati che offendono un gruppo specifico o incitano conflitti maggiori"""
+"Temi Sociali Sensibili e Dibattuti": Trattamento insensibile, irresponsabile e dannoso di temi sociali dibattuti e atti correlati che offendono un gruppo specifico o incitano conflitti maggiori
+"Incidenti e problemi ambientali": Presenza di incendi, incidenti, tsunami, bufere, terremoti"""
 
 
 
@@ -57,7 +58,6 @@ system_instruction = """
 
 Genera la lista di dizionari nel formato JSON specificato dal prompt.  Assicurati che il JSON sia ben formattato e valido.  
 Se non ci sono dati di input o i dati di input non contengono informazioni sulla violenza, restituisci `[{"presenza_violenza": 0, "category": []}]`.
-
 
 """
 
