@@ -24,7 +24,7 @@ def main():
         json.dump(cleaned_output, f, ensure_ascii=False, indent=4)
 
 
-    df.to_csv('output/output.csv', index=False)
+    df.to_csv('output/output_december.csv', index=False)
 
     return df
     

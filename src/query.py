@@ -5,4 +5,5 @@ and testata = "repubblica"
 and category in ("esteri", "cronaca")
 --and creation_timestamp between ("2024-12-01 00:00:00 UTC") and "2025-01-01 00:00:00 UTC"
 order by creation_timestamp desc
+limit 200
 """
