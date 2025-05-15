@@ -5,6 +5,7 @@ import re
 from bs4 import BeautifulSoup
 import requests
 from query import query
+import pandas as pd
 #from query import query
 
 #with open("input/query.txt", "r", encoding="utf-8") as f:
@@ -20,6 +21,7 @@ def extraction_func ():
     print (query_)
     df = query_.to_dataframe()
     urls = df['url'].astype(str).tolist()
+    #print(urls)
     return (urls)
 
 
@@ -31,6 +33,7 @@ def extract_video_url(htlm_content):
 
 
 def video_extr ():
+    data = []
     video_urls = []
     embed_urls = extraction_func()
 
@@ -38,8 +41,20 @@ def video_extr ():
          response = requests.get(embed_url)
          soup = BeautifulSoup(response.content, 'html.parser')
          video_url = extract_video_url(soup)
+
+         data.append({
+            'website_url': embed_url,
+            'tvmanager_url': video_url
+        })
+         
          if video_url:
              video_urls.append(video_url)
-    print (video_urls)         
+    #print (embed_urls, video_urls) 
+
+    df = pd.DataFrame(data)
+    df.to_csv('url_video_tvmanager.csv', index=False)        
 
     return video_urls
+
+
+#video_extr_url()

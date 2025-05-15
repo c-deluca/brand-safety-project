@@ -4,6 +4,7 @@ where tipo = "video"
 and testata = "repubblica"
 and category in ("esteri", "cronaca")
 and creation_timestamp between ("2024-12-01 00:00:00 UTC") and "2025-01-01 00:00:00 UTC"
+--and url like any ('%droga%')
 order by creation_timestamp 
-limit 20
+limit 5
 """
