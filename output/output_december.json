@@ -1,0 +1,99 @@
+{
+    "https://media.gedidigital.it/repubblicatv/file/2025/05/15/1112437/1112437-video-rrtv-650-videoincendioauto.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2007/12/05/16207/fojadelli051207.mp4": [
+        {
+            "presenza_violenza": 1,
+            "category": [
+                "Crimini e Atti Dannosi per gli Individui e la Società, Violazioni dei Diritti Umani",
+                "Morte, Ferite o Conflitti Militari",
+                "Discorsi d’Odio e Atti di Aggressione"
+            ]
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2008/03/10/19227/giovani_e_sesso.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2008/08/17/23898/domenici170808.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2008/10/30/26462/videobox30102008b.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2009/03/31/31690/dipietro310309.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2009/04/24/32509/siracusaprotestenoglobal20090424.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2012/02/20/87026/viverlatutta_haber.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2012/02/20/87027/viverlatutta_insinna.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2012/05/09/93257/perugia09052012.mp4": [
+        {
+            "presenza_violenza": 1,
+            "categorie_violenza": [
+                "Crimini e Atti Dannosi per gli Individui e la Società, Violazioni dei Diritti Umani",
+                "Morte, Ferite o Conflitti Militari"
+            ]
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2013/06/19/139671/139671-video-rrtv-livini19_06_13.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2013/07/02/141402/141402-video-rrtv-fium.mp4": [
+        {
+            "presenza_violenza": 1,
+            "category": [
+                "Droghe Illegali/Tabacco/Sigaretta Elettronica/Vaping/Alcool"
+            ]
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2013/09/16/150563/150563-video-rrtv-lunedi.mp4": [
+        {
+            "presenza_violenza": 1,
+            "category": [
+                "Crimini e Atti Dannosi per gli Individui e la Società, Violazioni dei Diritti Umani"
+            ]
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2014/04/17/186548/186548-video-rrtv-venerdi170414defok.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2014/05/20/192300/192300-video-rrtv-giannini200514rc.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2014/08/13/205209/205209-multi-flip-camillicasa.mp4": [
+        {
+            "presenza_violenza": 1,
+            "category": [
+                "Morte, Ferite o Conflitti Militari"
+            ]
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2014/08/16/205433/205433-multi-flip-meteo170814rc.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2015/01/05/235036/235036-multi-auto-c32bbebee44afcf896433c73c9be8672.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2015/06/17/264843/264843-multi-flip-serra_droga_arresti_ansa.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ]
+}

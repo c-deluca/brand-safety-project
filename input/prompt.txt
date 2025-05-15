@@ -1,9 +1,9 @@
-Genera un JSON che descriva le scene di violenza o disturbanti rilevate in un video.  Il JSON deve contenere un singolo dizionario con la seguente struttura:
+Genera un JSON che descriva la presenza di scene violente o disturbanti rilevate in un video.  Il JSON deve contenere un singolo dizionario con la seguente struttura:
 
 ```json
 {
   "url_video": "URL_del_video",
-  "violenza_presente": 1 se presente violenza o scene disturbanti, 0 altrimenti
+  "violenza_presente": 1 se il video contiene scene violente o disturbanti, altrimenti 0
   "categorie_violenza": ["categoria1", "categoria2", ...] // Array di stringhe. Può essere vuoto se violenza_presente è false.
 }
 
