@@ -58,6 +58,7 @@ system_instruction = """
 
 Genera la lista di dizionari nel formato JSON specificato dal prompt.  Assicurati che il JSON sia ben formattato e valido.  
 Se non ci sono dati di input o i dati di input non contengono informazioni sulla violenza, restituisci `[{"presenza_violenza": 0, "category": []}]`.
+Se presenza_violenza = 1, inserisci in category minimo 1 categoria e massimo 3 categorie.
 
 """
 

@@ -2,10 +2,10 @@ from utils import generate_for_videos, clean_json_output, json_to_dataframe
 import extraction
 import json
 from extraction import extraction_func, video_extr
-from conf import prompt, generation_config, system_instruction, safety_settings
+from conf import generation_config, system_instruction, safety_settings
 
 with open("input/prompt.txt", "r", encoding="utf-8") as f:
-     prompt1 = f.read()
+     prompt = f.read()
     
 
 def main():
@@ -15,20 +15,19 @@ def main():
     
     video_urls = video_extr()
     
-    output = generate_for_videos(video_urls, system_instruction, prompt1, generation_config, safety_settings)
+    output = generate_for_videos(video_urls, system_instruction, prompt, generation_config, safety_settings)
     cleaned_output = clean_json_output(output)
     df = json_to_dataframe(cleaned_output)
 
 
-    with open("output/output_dec_new.json", "w", encoding="utf-8") as f:
+    with open("output.json", "w", encoding="utf-8") as f:
         json.dump(cleaned_output, f, ensure_ascii=False, indent=4)
 
 
-    df.to_csv('output/output_dec_new.csv', index=False)
+    df.to_csv('output.csv', index=False)
 
     return df
     
-
 if __name__ == "__main__":
     main()
 
