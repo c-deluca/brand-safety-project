@@ -3,8 +3,8 @@ FROM gd-gcp-prd-dp-lake-2-0.gd_gcp_prd_dp_lake_2_bq_0.cms_cms_atex_tutti_contenu
 where tipo = "video"
 and testata = "repubblica"
 and category in ("esteri", "cronaca")
---and creation_timestamp between ("2024-12-01 00:00:00 UTC") and "2025-01-01 00:00:00 UTC"
---and url like any ('%droga%')
-order by creation_timestamp 
-limit 5
+and creation_timestamp between ("2020-12-01 00:00:00 UTC") and "2025-01-01 00:00:00 UTC"
+and url like any ('%camilli%')
+--order by creation_timestamp 
+limit 10
 """
