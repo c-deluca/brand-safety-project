@@ -1,9 +1,12 @@
-Genera un JSON che descriva la presenza di scene violente o disturbanti rilevate in un video. Non analizzare suoni, audio e parole dette, ma solamente ciò che si vede. E poi dimmi il perchè.  Il JSON deve contenere un singolo dizionario con la seguente struttura:
+Genera un JSON che descriva la presenza di scene violente o elementi disturbanti rilevate in un video. 
+Aiutati anche con il nome dell'url.
+Poi dimmi il perchè. 
+Il JSON deve contenere un singolo dizionario con la seguente struttura:
 
 ```json
 {
   "url_video": "URL_del_video",
-  "violenza_presente": 1 se il video contiene scene violente o disturbanti, altrimenti 0
+  "violenza_presente": 1 se il video contiene scene violente o elementi disturbanti, altrimenti 0. Non può mai essere campo vuoto.
   "categorie_violenza": ["categoria1", "categoria2", ...] // Array di stringhe. Può essere vuoto se violenza_presente è false.
 }
 
@@ -14,13 +17,15 @@ Per identificare la categoria di scena violenta o disturbante usa la seguente cl
 "Armi e Munizioni": Promozione e incitamento alla vendita di armi illegali, fucili e pistole, Contenuti che spiegano come ottenere, costruire, distribuire o utilizzare armi illegali, Glorificazione delle armi illegali a scopo di danneggiare gli altri, Utilizzo di armi illegali in ambienti non regolamentati
 "Crimini e Atti Dannosi per gli Individui e la Società, Violazioni dei Diritti Umani": Promozione grafica, incitamento e rappresentazione di danni volontari e attività criminali illegali, Violazioni esplicite o offensive dei diritti umani (es. tratta di esseri umani, schiavitù, autolesionismo, crudeltà verso gli animali), Molestie o bullismo verso individui e gruppi
 
-"Morte, Ferite o Conflitti Militari": promozione, incitamento o sostegno alla violenza, morte o ferite, Omicidio o lesioni corporali volontarie verso altri, Rappresentazioni grafiche di danni volontari verso altri, Contenuti incendiari che provocano, incitano o evocano aggressioni militari, Immagini o foto di azioni militari, genocidi o altri crimini di guerra.
+"Morte, Ferite o Conflitti Militari": scene di violenza, guerra, conflitti, morte o ferite, Omicidio o lesioni corporali volontarie verso altri, Rappresentazioni grafiche di danni volontari verso altri, Contenuti incendiari che provocano, incitano o evocano aggressioni militari, Immagini o foto di azioni militari, genocidi o altri crimini di guerra, presenza di soldati. Per questa categoria non considerare ausdio/suoni o discorsi detti, ma limitati solo ed esclusivamente a ciò che si vede graficamente.
+Solo per questa categoria guarda SOLO le immagini del video. IGNORA COMPLETAMENTE qualsiasi cosa venga detta, qualsiasi suono, qualsiasi riferimento a eventi passati o futuri. CONCENTRATI ESCLUSIVAMENTE SU CIÒ CHE VEDI.
+Aiutati anche con il nome dell'url.
 
-"Pirateria Online": Pirateria, Violazione del copyright e Contraffazione
+"Pirateria Online": presenza di elementi che rimandano a pirateria, Violazione del copyright e Contraffazione.
 "Discorsi d’Odio e Atti di Aggressione": Comportamenti o contenuti che incitano odio, promuovono violenza, vilipendono o disumanizzano gruppi o individui in base a razza, etnia, genere, orientamento sessuale, identità di genere, età, abilità, nazionalità, religione, casta, vittime e sopravvissuti a violenze e i loro familiari, stato di immigrazione o malattie gravi
 "Oscenità e Volgarità": Uso eccessivo di linguaggio volgare o gesti e altre azioni ripugnanti che scioccano, offendono o insultano
-"Droghe Illegali/Tabacco/Sigaretta Elettronica/Vaping/Alcool": Promozione o vendita di droghe illegali – inclusi abusi di farmaci prescritti. La giurisdizione federale si applica, ma è consentito dove la giurisdizione locale lo permette, Promozione e incitamento all’uso di tabacco, sigarette elettroniche (vaping) e alcol tra i minorenni
+"Droghe Illegali/Tabacco/Sigaretta Elettronica/Vaping/Alcool": Promozione o vendita di droghe illegali – inclusi abusi di farmaci prescritti. La giurisdizione federale si applica, ma è consentito dove la giurisdizione locale lo permette, Promozione e incitamento all’uso di tabacco, sigarette elettroniche (vaping) e alcol tra i minorenni. Per questa categoria aiutati anche con il nome dell'url (ex. se contiene la parola "marjuana" è più probabile ci siano elementi disturbanti)
 "Spam o Contenuti Dannosi": Malware/Phishing
 "Terrorismo": Promozione e incitamento ad attività terroristiche grafiche che comportano diffamazione, danni fisici e/o emotivi agli individui, alle comunità e alla società
 "Temi Sociali Sensibili e Dibattuti": Trattamento insensibile, irresponsabile e dannoso di temi sociali dibattuti e atti correlati che offendono un gruppo specifico o incitano conflitti maggiori
-"Incidenti e problemi ambientali": Presenza di incendi, incidenti, tsunami, bufere, terremoti
+"Incidenti e problemi ambientali": Presenza di incendi, incidenti, tsunami, bufere, terremoti, scosse sismiche. Per questa categoria aiutati anche con il nome dell'url (ex. se contiene la parola "scossa" è più probabile ci siano elementi disturbanti)
