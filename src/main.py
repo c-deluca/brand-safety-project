@@ -1,4 +1,4 @@
-from utils import generate_for_videos, clean_json_output, json_to_dataframe
+from utils import generate_for_videos, clean_json_output, json_to_dataframe, generate_for_videos_prova
 import extraction
 import json, pandas as pd
 from extraction import extraction_func, video_extr
@@ -14,18 +14,18 @@ def main():
     
     #video_urls = video_extr()
     df_dec = pd.read_csv("url_dicembre.csv")
-    video_urls = df_dec["url_tvmanager"].dropna().tolist()[:3]
+    video_urls = df_dec["url_tvmanager"].dropna().tolist()[:100]
 
-    output = generate_for_videos(video_urls, system_instruction, prompt, generation_config, safety_settings)
+    output = generate_for_videos_prova(video_urls, system_instruction, prompt, generation_config, safety_settings)
     cleaned_output = clean_json_output(output)
     df = json_to_dataframe(cleaned_output)
 
 
-    with open("output.json", "w", encoding="utf-8") as f:
+    with open("output_trials.json", "w", encoding="utf-8") as f:
         json.dump(cleaned_output, f, ensure_ascii=False, indent=4)
 
 
-    df.to_csv('output.csv', index=False)
+    df.to_csv('output_trials.csv', index=False)
 
     return df
     

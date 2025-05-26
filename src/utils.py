@@ -4,7 +4,7 @@ from google.cloud import bigquery
 import json
 import re
 
-import requests
+import requests, time
 from bs4 import BeautifulSoup
 
 import base64
@@ -28,8 +28,11 @@ def generate_for_videos(video_urls, system_instruction, prompt, generation_confi
         "gemini-1.5-flash-002",
         system_instruction=system_instruction
     )
+
     results = {}
+
     for idx, video_url in enumerate(tqdm(video_urls, desc="Processing Videos")):
+        
         print(f"Processing video {idx + 1}: {video_url}")
         try:
 
@@ -37,6 +40,14 @@ def generate_for_videos(video_urls, system_instruction, prompt, generation_confi
                 mime_type="video/mp4",
                 uri=video_url
             )
+
+        
+            start = time.time()
+            response = requests.get(video_url, stream=True, timeout=10)
+            end = time.time()
+
+            print(f"Status code: {response.status_code}")
+            print(f"Time: {round(end - start, 2)} seconds")
 
             responses = model.generate_content(
                 [video, prompt],
@@ -106,3 +117,72 @@ def json_to_dataframe(cleaned_json):
 
     df = pd.DataFrame(data)
     return df
+
+
+
+def generate_for_videos_prova(video_urls, system_instruction, prompt, generation_config, safety_settings):
+
+    vertexai.init(project="gd-gcp-env-dp-lab-hub-1", location="europe-west1")
+    model = GenerativeModel(
+        "gemini-1.5-flash-002",
+        system_instruction=system_instruction
+    )
+
+    results = {}
+
+    for idx, video_url in enumerate(tqdm(video_urls, desc="Processing Videos")):
+        print(f"\nProcessing video {idx + 1}: {video_url}")
+        video_url = video_url.strip()  # Rimuove eventuali spazi
+
+        success = False
+        max_attempts = 10
+        attempt = 0
+
+        while not success and attempt < max_attempts:
+            attempt += 1
+            print(f"Tentativo {attempt} per video {idx + 1}")
+
+            try:
+                # Test velocità accesso URL (opzionale)
+                start = time.time()
+                response = requests.get(video_url, stream=True, timeout=10)
+                end = time.time()
+                print(f"Status code: {response.status_code}, Time: {round(end - start, 2)} seconds")
+                #print(f"Time: {round(end - start, 2)} seconds")
+
+                # Se il link è irraggiungibile, alza eccezione
+                if response.status_code != 200:
+                    raise Exception(f"HTTP {response.status_code} - URL non accessibile")
+
+                # Prepara il video
+                video = Part.from_uri(
+                    mime_type="video/mp4",
+                    uri=video_url
+                )
+
+                # Genera contenuto
+                responses = model.generate_content(
+                    [video, prompt],
+                    generation_config=generation_config,
+                    safety_settings=safety_settings,
+                    stream=True,
+                )
+
+                # Combina i risultati generati
+                generated_text = ""
+                for response in responses:
+                    generated_text += response.text
+
+                results[video_url] = generated_text
+                print(f"✅ Completato video {idx + 1}: {generated_text[10:-5]}")
+                success = True
+
+            except Exception as e:
+                print(f"❌ Errore al tentativo {attempt} per video {idx + 1}: {e}")
+                if attempt == max_attempts:
+                    print(f"⚠️ Falliti tutti i tentativi per video {idx + 1}")
+                    results[video_url] = f"Errore: {e}"
+                else:
+                    time.sleep(1.5)    
+
+    return results

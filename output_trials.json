@@ -1,0 +1,33 @@
+{
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1038018/1038018-video-rrtv-1200-2024_12_02t085718z_1_lov39970212.mp4": [
+        {
+            "presenza_violenza": 1,
+            "category": [
+                "Morte, Ferite o Conflitti Militari"
+            ]
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1038028/1038028-video-rrtv-1200-aleppo_siria_bombe.mp4": [
+        {
+            "presenza_violenza": 1,
+            "category": [
+                "Morte, Ferite o Conflitti Militari"
+            ]
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1038039/1038039-video-rrtv-1200-guinea_morti_stadio.mp4": [
+        {
+            "presenza_violenza": 1,
+            "category": [
+                "Morte, Ferite o Conflitti Militari"
+            ]
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1038072/1038072-video-rrtv-1200-videoverticaleanzianageorgia.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1038102/1038102-video-rrtv-1200-241202_deutschland_vw_streik.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ]
+}
