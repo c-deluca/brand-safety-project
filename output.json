@@ -1,23 +1,15 @@
 {
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038700/1038700-video-rrtv-650-0312furti.mp4": [
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/01/1037628/1037628-video-rrtv-1200-0112verticale_damasco.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/01/1037648/1037648-video-rrtv-1200-528214_large.mp4": [
         {
-            "presenza_violenza": 1,
-            "category": [
-                "Crimini e Atti Dannosi per gli Individui e la Società, Violazioni dei Diritti Umani",
-                "Morte, Ferite o Conflitti Militari"
-            ]
+            "presenza_violenza": 0,
+            "category": []
         }
     ],
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/26/1049403/1049403-video-rrtv-650-videocasabiancaverticale.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/18/1046288/1046288-video-rrtv-650-2024_12_18t085500z_1_lov79281812.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/18/1046461/1046461-video-rrtv-650-videoverticaleambienterussia.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038554/1038554-video-rrtv-650-242103_georgia_politics_eu_prote.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/13/1044064/1044064-video-rrtv-650-131224_gisele_pelicot.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/07/1041025/1041025-video-rrtv-650-241207_cerimonia.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/27/1049777/1049777-video-rrtv-650-doc_speleologa.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/06/1040415/1040415-video-rrtv-650-2024_12_06t105244z_1_lov51800612.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/16/1045435/1045435-video-rrtv-650-161224_zakir_hussain.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/21/1048281/1048281-video-rrtv-650-v2_congo_traghetto_rovesciato.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/08/1041453/1041453-video-rrtv-650-2024_12_08t143946z_258381420_owa.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/27/1049887/1049887-video-rrtv-650-2712verticale_alpinisti.mp4": "Errore: contenuto JSON non trovato"
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/01/1037695/1037695-video-rrtv-1200-0112verticale_sirene.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ]
 }
