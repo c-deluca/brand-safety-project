@@ -14,7 +14,7 @@ def main():
     
     #video_urls = video_extr()
     df_dec = pd.read_csv("url_dicembre.csv")
-    video_urls = df_dec["url_tvmanager"].dropna().tolist()[:100]
+    video_urls = df_dec["url_tvmanager"].dropna().tolist()[30:40]
 
     output = generate_for_videos_prova(video_urls, system_instruction, prompt, generation_config, safety_settings)
     cleaned_output = clean_json_output(output)

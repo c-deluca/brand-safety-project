@@ -1,33 +1,52 @@
 {
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1038018/1038018-video-rrtv-1200-2024_12_02t085718z_1_lov39970212.mp4": [
-        {
-            "presenza_violenza": 1,
-            "category": [
-                "Morte, Ferite o Conflitti Militari"
-            ]
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1038028/1038028-video-rrtv-1200-aleppo_siria_bombe.mp4": [
-        {
-            "presenza_violenza": 1,
-            "category": [
-                "Morte, Ferite o Conflitti Militari"
-            ]
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1038039/1038039-video-rrtv-1200-guinea_morti_stadio.mp4": [
-        {
-            "presenza_violenza": 1,
-            "category": [
-                "Morte, Ferite o Conflitti Militari"
-            ]
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1038072/1038072-video-rrtv-1200-videoverticaleanzianageorgia.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1038102/1038102-video-rrtv-1200-241202_deutschland_vw_streik.mp4": [
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038804/1038804-video-rrtv-1200-corea_del_sud_yoon.mp4": [
         {
             "presenza_violenza": 0,
             "category": []
         }
-    ]
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038813/1038813-video-rrtv-1200-videoginoce.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038852/1038852-video-rrtv-1200-0312corea.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038859/1038859-video-rrtv-1200-flotta_russa.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038915/1038915-video-rrtv-1200-seul_legge_marziale_verticale.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038919/1038919-video-rrtv-1200-0312202416554274.mp4": [
+        {
+            "presenza_violenza": 1,
+            "category": [
+                "Crimini e Atti Dannosi per gli Individui e la Società, Violazioni dei Diritti Umani"
+            ]
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038923/1038923-video-rrtv-1200-0312leadercoreano.mp4": [
+        {
+            "presenza_violenza": 0,
+            "category": []
+        }
+    ],
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038939/1038939-video-rrtv-1200-flotta_russa_verticale.mp4": "Errore: contenuto JSON non trovato",
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038974/1038974-video-rrtv-1200-0312soldaticorea.mp4": {
+        "presenza_violenza": 1,
+        "category": [
+            "Crimini e Atti Dannosi per gli Individui e la Società, Violazioni dei Diritti Umani",
+            "Morte, Ferite o Conflitti Militari"
+        ]
+    },
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/03/1038981/1038981-video-rrtv-1200-videosoldativerticale.mp4": {
+        "url_video": null,
+        "violenza_presente": 1,
+        "categorie_violenza": [
+            "Crimini e Atti Dannosi per gli Individui e la Società, Violazioni dei Diritti Umani",
+            "Morte, Ferite o Conflitti Militari"
+        ]
+    }
 }
