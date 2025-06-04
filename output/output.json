@@ -1,164 +1,16 @@
 {
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/13/1111307/1111307-video-rrtv-650-130525_spari_tripoli_ok.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1111153/1111153-video-rrtv-650-crocerossa_ostaggio_israele.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1111150/1111150-video-rrtv-650-v2_cantante_eurovision.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1111069/1111069-video-rrtv-650-s20250512161703000.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1111020/1111020-video-rrtv-650-1205violenza.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1110924/1110924-video-rrtv-650-videopapaaiverticale.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1110910/1110910-video-rrtv-650-videopapabattuta.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1110899/1110899-video-rrtv-650-videopapamedia.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1110874/1110874-video-rrtv-650-videostarmermigranti.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1110840/1110840-video-rrtv-650-okokmacron.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1110821/1110821-video-rrtv-650-2025_05_12t065006z_271723199_owa.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1110811/1110811-video-rrtv-650-1205naziok.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/12/1110762/1110762-video-rrtv-650-videoverticalezeleputin.mp4": [
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1037924/1037924-video-rrtv-1200-prodi.mp4": [
         {
             "presenza_violenza": 0,
             "category": []
         }
     ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/11/1110655/1110655-video-rrtv-650-110525_manoscritto_artu.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/11/1110621/1110621-video-rrtv-650-110525_papa_ucraina.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/11/1110596/1110596-video-rrtv-650-1105202513050113_2_.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/11/1110592/1110592-video-rrtv-650-20250511_visita_grotte_e_messa_d.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/11/1110580/1110580-video-rrtv-650-110525leonecanta.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/11/1110504/1110504-video-rrtv-650-110525indiapaki.mp4": [
-        {
-            "presenza_violenza": 0,
-            "category": []
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/10/1110375/1110375-video-rrtv-650-100525leonesalutq.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/10/1110358/1110358-video-rrtv-650-100525papasmmok.mp4": [
-        {
-            "presenza_violenza": 0,
-            "category": []
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/10/1110355/1110355-video-rrtv-650-100525leonefrancesco.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/10/1110301/1110301-video-rrtv-650-100525papagenezz.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/10/1110233/1110233-video-rrtv-650-20250510_papa_leone_xiv_riunione.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/10/1110181/1110181-video-rrtv-650-100525_elezione_leone_iii.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/10/1110167/1110167-video-rrtv-650-100525_new_jersey.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/10/1110164/1110164-video-rrtv-650-100525_papa_aula_nervi.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/10/1110151/1110151-video-rrtv-650-100525_india_nuovi_attacchi.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/10/1110141/1110141-video-rrtv-650-100525_macron_starmer.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109943/1109943-video-rrtv-650-090525_cardinale_pizzaballa.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109933/1109933-video-rrtv-650-100525_papa_leone_xiv_ok.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109909/1109909-video-rrtv-650-papa_ricordi.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109880/1109880-video-rrtv-650-v2_fratello_papa.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109809/1109809-video-rrtv-650-555312_large.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109791/1109791-video-rrtv-650-civico_zero_reel_16_9_subs_carte.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109776/1109776-video-rrtv-650-0905comaliok.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109771/1109771-video-rrtv-650-copy_of_intervista_coppia_veed.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109764/1109764-video-rrtv-650-videofeliznavidadpapa.mp4": [
-        {
-            "presenza_violenza": 0,
-            "category": []
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109748/1109748-video-rrtv-650-videopapafango.mp4": [
-        {
-            "presenza_violenza": 0,
-            "category": []
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109737/1109737-video-rrtv-650-videobelgorodverticale.mp4": [
-        {
-            "presenza_violenza": 1,
-            "categorie": [
-                "Morte, Ferite o Conflitti Militari"
-            ]
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109724/1109724-video-rrtv-650-videopapaapplausiverticale.mp4": [
-        {
-            "presenza_violenza": 0,
-            "category": []
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109722/1109722-video-rrtv-650-250509_ukroyalnavy.mp4": [
+    "https://media.gedidigital.it/repubblicatv/file/2024/12/02/1037957/1037957-video-rrtv-1200-0212_siria_esplosione.mp4": [
         {
             "presenza_violenza": 1,
             "category": [
                 "Morte, Ferite o Conflitti Militari"
             ]
         }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109714/1109714-video-rrtv-650-videopapaaccettazione.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109697/1109697-video-rrtv-650-videopapasuperuomo.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109695/1109695-video-rrtv-650-090525_papa_prevost.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109688/1109688-video-rrtv-650-videopapafedeok.mp4": [
-        {
-            "presenza_violenza": 0,
-            "category": []
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109682/1109682-video-rrtv-650-videoingressopapaok.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109668/1109668-video-rrtv-650-2025_05_09t082256z_1_lwd27950905.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109644/1109644-video-rrtv-650-0905202510110075.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109639/1109639-video-rrtv-650-john_fratello_papa.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109625/1109625-video-rrtv-650-videoparatamilitareputin.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109608/1109608-video-rrtv-650-papa_autografo.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109601/1109601-video-rrtv-650-videovicariochicago.mp4": [
-        {
-            "presenza_violenza": 0,
-            "category": []
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109592/1109592-video-rrtv-650-prevost_tg1.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109591/1109591-video-rrtv-650-videomessicoincidenteverticale.mp4": [
-        {
-            "presenza_violenza": 0,
-            "category": []
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/09/1109553/1109553-video-rrtv-650-la_casa_dell_infanzia_di_papa_le.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109478/1109478-video-rrtv-650-videopapapregaverticale.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109462/1109462-video-rrtv-650-videopapapregaok.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109456/1109456-video-rrtv-650-videotrumpapa.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109444/1109444-video-rrtv-650-s20250508211448000.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109442/1109442-video-rrtv-650-0805202520331593.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109432/1109432-video-rrtv-650-2025_05_08t172741z_1_lwd24260805.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109429/1109429-video-rrtv-650-videopapainpaceok.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109414/1109414-video-rrtv-650-0805202520063703.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109398/1109398-video-rrtv-650-benedizione.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109390/1109390-video-rrtv-650-papa_light.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109382/1109382-video-rrtv-650-videopapacommosso.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109372/1109372-video-rrtv-650-papa_spagnolo_sub.mp4": [
-        {
-            "presenza_violenza": 0,
-            "category": []
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109366/1109366-video-rrtv-650-habemus_papa.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109363/1109363-video-rrtv-650-videoprevostpapa.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109348/1109348-video-rrtv-650-videogabbianifumata.mp4": [
-        {
-            "presenza_violenza": 0,
-            "category": []
-        }
-    ],
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109337/1109337-video-rrtv-650-fumata_dall_alto.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109336/1109336-video-rrtv-650-videofumatabiancaboato.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109323/1109323-video-rrtv-650-videoesultanzafumata.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109314/1109314-video-rrtv-650-fumata_due_vatican.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109293/1109293-video-rrtv-650-2025_05_08t151323z_271436148_owe.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109190/1109190-video-rrtv-650-videofumatastranaverticale.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109176/1109176-video-rrtv-650-0805recarlo.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109146/1109146-video-rrtv-650-videogabbianiokok.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109135/1109135-video-rrtv-650-0805crocerossaok.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109125/1109125-video-rrtv-650-s20250508124658000.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109119/1109119-video-rrtv-650-2025_05_08t100451z_1_lwd24970805.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109099/1109099-video-rrtv-650-250508_pizzaballa.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109093/1109093-video-rrtv-650-videoputinneonazismo.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109081/1109081-video-rrtv-650-videofumatanera.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1109010/1109010-video-rrtv-650-videoputinxi.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1108995/1108995-video-rrtv-650-555018_large.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/08/1108973/1108973-video-rrtv-650-videocolumbia.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/07/1108844/1108844-video-rrtv-650-copy_of_fcappadocia_s_video_may_.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/07/1108734/1108734-video-rrtv-650-chiusura_porte_veed.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/07/1108728/1108728-video-rrtv-650-extra_omnes.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/07/1108705/1108705-video-rrtv-650-giuramento_parolin.mp4": "Errore: contenuto JSON non trovato",
-    "https://media.gedidigital.it/repubblicatv/file/2025/05/07/1108692/1108692-video-rrtv-650-giuramento.mp4": "Errore: contenuto JSON non trovato"
+    ]
 }
