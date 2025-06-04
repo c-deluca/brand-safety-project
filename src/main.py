@@ -4,7 +4,7 @@ import json, pandas as pd
 from extraction import extraction_func, video_extr
 from conf import generation_config, system_instruction, safety_settings
 
-with open("input/prompt.txt", "r", encoding="utf-8") as f:
+with open("prompt.txt", "r", encoding="utf-8") as f:
      prompt = f.read()
     
 
