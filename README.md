@@ -47,8 +47,7 @@ Per ogni video analizzato, vengono generati:
     ├── check_url_availability.py --controlla preliminarmente quanti video sono ancora disponibili
     ├── data/
     │   └── [lista di url tvmanager]
-    ├── prompt.txt
-    │   
+    ├── prompt.txt   
     ├── output/
     │   ├── [generated_output.csv]
     │   └── [generated_output.json]

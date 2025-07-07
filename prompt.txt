@@ -1,4 +1,4 @@
-Genera un JSON che descriva la presenza di scene violente o elementi disturbanti rilevate in un video. 
+Genera un JSON che descriva la presenza di scene violente, elementi disturbanti o eventi ambientali (in tal caso anche non violenti) rilevate in un video. 
 Aiutati anche con il nome dell'url.
 Poi dimmi il perchè. 
 Il JSON deve contenere un singolo dizionario con la seguente struttura:
@@ -6,7 +6,7 @@ Il JSON deve contenere un singolo dizionario con la seguente struttura:
 ```json
 {
   "url_video": "URL_del_video",
-  "violenza_presente": 1 se il video contiene scene violente o elementi disturbanti, altrimenti 0. Non può mai essere campo vuoto.
+  "violenza_presente": 1 se il video contiene scene violente, elementi disturbanti o eventi ambientali, altrimenti 0. Non può mai essere campo vuoto.
   "categorie_violenza": ["categoria1", "categoria2", ...] // Array di stringhe. Può essere vuoto se violenza_presente è false.
 }
 
@@ -20,7 +20,6 @@ Solo per questa categoria guarda SOLO le immagini del video. IGNORA COMPLETAMENT
 Aiutati anche con il nome dell'url.
 
 "Morte, Ferite o Conflitti Militari": scene di violenza, guerra, conflitti, morte o ferite, Omicidio o lesioni corporali volontarie verso altri, Rappresentazioni grafiche di danni volontari verso altri, Contenuti incendiari che provocano, incitano o evocano aggressioni militari, Immagini o foto di azioni militari, genocidi o altri crimini di guerra, presenza di soldati. Per questa categoria non considerare ausdio/suoni o discorsi detti, ma limitati solo ed esclusivamente a ciò che si vede graficamente.
-Solo per questa categoria guarda SOLO le immagini del video. IGNORA COMPLETAMENTE qualsiasi cosa venga detta, qualsiasi suono, qualsiasi riferimento a eventi passati o futuri. CONCENTRATI ESCLUSIVAMENTE SU CIÒ CHE VEDI.
 Aiutati anche con il nome dell'url.
 
 "Pirateria Online": presenza di elementi che rimandano a pirateria, Violazione del copyright e Contraffazione.
@@ -30,4 +29,4 @@ Aiutati anche con il nome dell'url.
 "Spam o Contenuti Dannosi": Malware/Phishing
 "Terrorismo": Promozione e incitamento ad attività terroristiche grafiche che comportano diffamazione, danni fisici e/o emotivi agli individui, alle comunità e alla società
 "Temi Sociali Sensibili e Dibattuti": Trattamento insensibile, irresponsabile e dannoso di temi sociali dibattuti e atti correlati che offendono un gruppo specifico o incitano conflitti maggiori
-"Incidenti e problemi ambientali": Presenza di incendi, incidenti, tsunami, bufere, terremoti, scosse sismiche. Per questa categoria aiutati anche con il nome dell'url (ex. se contiene la parola "scossa" è più probabile ci siano elementi disturbanti)
+"Incidenti e problemi ambientali": Include eventi naturali o accidentali. Per questa categoria non serve che i fenomeni naturali siano pericolosi o violenti, ma che siano comunque presenti ed evidenti. Esempi: inondazioni, forte nevicata, nebbia, frane, tempeste, neve intensa, barche danneggiate da onde, incendi non dolosi, incidenti stradali non criminali, crolli strutturali. Per esempio potrebbero includere presenza di fenomeni naturali importanti (forti nevicate, piogge...), di disastri naturali o ambientali come incendi, incidenti stradali o industriali, tsunami, bufere, terremoti, scosse sismiche, frane, inondazioni o altri eventi catastrofici o particolari. Considera come disturbanti anche scene senza presenza umana, purché mostrino fenomeni naturali violenti come vento estremo, allagamenti, distruzione ambientale, fuoco, oggetti trascinati dall'acqua, o neve intensa che riduce la visibilità. Per questa categoria aiutati anche con il nome dell'url (ex. se contiene la parola "scossa" è più probabile ci siano elementi disturbanti)
