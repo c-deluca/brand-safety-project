@@ -21,11 +21,11 @@ def main():
     df = json_to_dataframe(cleaned_output)
 
 
-    with open("output/output.json", "w", encoding="utf-8") as f:
+    with open("output/output1.json", "w", encoding="utf-8") as f:
         json.dump(cleaned_output, f, ensure_ascii=False, indent=4)
 
 
-    df.to_csv('output/output.csv', index=False)
+    df.to_csv('output/output1.csv', index=False)
 
     return df
     
